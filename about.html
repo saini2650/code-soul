@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/c.png">
+</head>
+
+<body class="body">
+    <nav class="navbar navbar-expand-lg bg1 ">
+        <div class="container-fluid">
+
+            <!-- <button class="btn btn-dark rounded me-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            <img class="menu" src="img/menu.png" alt="bar">
+          </button> -->
+
+            <a class=" me-3" href="#"> <img src="img/c.png" class="micon"></a>
+            <a class="navbar-brand text-dark me-5" href="index.html">Code-soul</a>
+
+
+            <button class="navbar-toggler bar-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <img src="img/menu.png" alt="" srcset="">
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark-emphasis" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark-emphasis" aria-current="page" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item border-bottom border-3 border-success">
+                        <a class="nav-link text-success" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark-emphasis" aria-current="page" href="contact_us.html">Contact-us</a>
+                    </li>
+                </ul>
+
+
+
+                <!-- <form class="d-flex" role="search">
+              <input data-bs-theme="light" class="form-control me-2 " type="search" placeholder="Search"
+                aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+                <img src="img/github.png" class="gicon ficon2-1">
+                <img src="img/twitter.png" class="gicon ficon2-3">
+                <img src="img/facebook.png" class="gicon ficon2-5">
+                <span class="text-light-emphasis">|</span>
+
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-light text-dark log-btn" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Sign-Up
+                </button>
+
+
+
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-light text-dark log-btn" data-bs-toggle="modal"
+                    data-bs-target="#exampleModa2">Log-In
+                </button>
+
+
+
+            </div>
+    </nav>
+
+
+    <!-- Modal login -->
+
+    <div class="modal fade z-4" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModa2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModa2Label">Log-In</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+
+                    <div class="main-box2">
+                        <div class="box1">
+                            <!-- <h1>Log-In</h1><br> -->
+                            <div class="email">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" class="textbox">
+                            </div><br>
+                            <div class="email">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" class="textbox"><br>
+                            </div>
+                        </div>
+                        <div class="box2">
+
+                            <div class="button">
+                                <input type="button" value="Log In" class=" btnn"><br>
+                            </div>
+                            <div class="fp tc">
+                                <p><br>
+                                    <span> Forgot Password?</span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Modal sign-up-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sign-up</h1>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+
+                    <div class="main-box">
+                        <div class="box1">
+                            <!-- <h1>Sign-up</h1><br> -->
+                            <div class="email">
+                                <label for="text">First-Name</label>
+                                <input type="text" id="text" class="textbox">
+                            </div>
+                            <div class="email">
+                                <label for="text">Last-Name </label>
+                                <input type="text" id="text" class="textbox">
+                            </div>
+                            <div class="email">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" class="textbox">
+                            </div>
+                            <div class="email">
+                                <label for="password">Set Password</label>
+                                <input type="password" id="password" class="textbox">
+                            </div>
+                            <div class="email">
+                                <label for="password">Confirm Password</label>
+                                <input type="password" id="password" class="textbox">
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="checkbox">
+
+                                <input type="checkbox" name="chk" id="chk">
+                                <label for="chk">Email me with news and updates</label>
+                            </div>
+                            <div class="button">
+                                <input type="button" value="Sign Up" class="btnn">
+                            </div>
+                            <div class="tc">
+                                <p>
+                                    By clicking the "Sign up " button, you are creating an account, and agree
+                                    to Body fuel' <span> Terms of Service </span> and <span> Privacy Policy </span>
+                                </p>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="blank"></div>
+
+    <div class="container about">
+
+        <div>
+            <h1>About Us</h1>
+        </div>
+        <p>Welcome to our coding website, where we are dedicated to providing you with the latest and most comprehensive
+            resources to help you learn and grow in your coding journey. Our team of experienced developers and
+            educators work tirelessly to create and curate high-quality tutorials, articles, and courses, covering a
+            wide range of programming languages and technologies. Whether you're a beginner or an advanced coder, our
+            goal is to provide you with the tools and knowledge you need to succeed in your career or personal projects.
+            Join our community today and take the first step towards becoming a confident and skilled coder.</p>
+    </div>
+
+   
+
+</body>
+
+</html>

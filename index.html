@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code-Soul</title>
+  <link rel="icon" href="img/c.png">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sign-up.css">
+</head>
+
+<body class="body">
+  <nav class="navbar navbar-expand-lg bg1 ">
+    <div class="container-fluid">
+
+      <!-- <button class="btn btn-dark rounded me-3" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        <img class="menu" src="img/menu.png" alt="bar">
+      </button> -->
+
+      <a class=" me-3" href="#"> <img src="img/c.png" class="micon"></a>
+      <a class="navbar-brand text-dark me-5" href="index.html">Code-soul</a>
+
+
+      <button class="navbar-toggler bar-button" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <img src="img/menu.png" alt="" srcset="">
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item border-bottom border-3 border-info">
+            <a class="nav-link text-info" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark-emphasis" aria-current="page" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark-emphasis" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-dark-emphasis" aria-current="page" href="contact_us.html">Contact-us</a>
+          </li>
+        </ul>
+
+
+
+        <!-- <form class="d-flex" role="search">
+          <input data-bs-theme="light" class="form-control me-2 " type="search" placeholder="Search"
+            aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+        <img src="img/github.png" class="gicon ficon2-1">
+        <img src="img/twitter.png" class="gicon ficon2-3">
+        <img src="img/facebook.png" class="gicon ficon2-5">
+        <span class="text-light-emphasis">|</span>
+
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-light text-dark log-btn" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Sign-Up
+        </button>
+
+
+
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-light text-dark log-btn" data-bs-toggle="modal"
+          data-bs-target="#exampleModa2">Log-In
+        </button>
+
+
+
+      </div>
+  </nav>
+
+
+  <!-- Modal login -->
+
+  <div class="modal fade z-4" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModa2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModa2Label">Log-In</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+
+
+          <div class="main-box2">
+            <div class="box1">
+              <!-- <h1>Log-In</h1><br> -->
+              <div class="email">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="textbox">
+              </div><br>
+              <div class="email">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="textbox"><br>
+              </div>
+            </div>
+            <div class="box2">
+
+              <div class="button">
+                <input type="button" value="Log In" class=" btnn"><br>
+              </div>
+              <div class="fp tc">
+                <p><br>
+                  <span> Forgot Password?</span>
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Modal sign-up-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sign-up</h1>
+          <button type="button" class=" btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+
+
+          <div class="main-box">
+            <div class="box1">
+              <!-- <h1>Sign-up</h1><br> -->
+              <div class="email">
+                <label for="text">First-Name</label>
+                <input type="text" id="text" class="textbox">
+              </div>
+              <div class="email">
+                <label for="text">Last-Name </label>
+                <input type="text" id="text" class="textbox">
+              </div>
+              <div class="email">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="textbox">
+              </div>
+              <div class="email">
+                <label for="password">Set Password</label>
+                <input type="password" id="password" class="textbox">
+              </div>
+              <div class="email">
+                <label for="password">Confirm Password</label>
+                <input type="password" id="password" class="textbox">
+              </div>
+            </div>
+            <div class="box2">
+              <div class="checkbox">
+
+                <input type="checkbox" name="chk" id="chk">
+                <label for="chk">Email me with news and updates</label>
+              </div>
+              <div class="button">
+                <input type="button" value="Sign Up" class="btnn">
+              </div>
+              <div class="tc">
+                <p>
+                  By clicking the "Sign up " button, you are creating an account, and agree
+                  to Body fuel' <span> Terms of Service </span> and <span> Privacy Policy </span>
+                </p>
+              </div>
+
+
+              <!-- <hr class="my-4">
+              <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+              <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
+                <svg class="bi me-1" width="16" height="16">
+                  <use xlink:href="#twitter" />
+                </svg>
+                Sign up with Twitter
+              </button>
+              <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                <svg class="bi me-1" width="16" height="16">
+                  <use xlink:href="#facebook" />
+                </svg>
+                Sign up with Facebook
+              </button>
+              <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                <svg class="bi me-1" width="16" height="16">
+                  <use xlink:href="#github" />
+                </svg>
+                Sign up with GitHub
+              </button> -->
+
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="blank "></div> -->
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Web Devlopment</h5>
+          <p>Web development is the work involved in developing a website for the Internet or an intranet.</p>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img src="img/1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Front-End Devlopment</h5>
+          <p>A front-end developer builds the front-end portion of websites and web applications.</p>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img src="img/3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Back-End Devlopment</h5>
+          <p>Back-end development means working on server-side software.</p>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container">
+
+    <h1 class="text-center my-5">Why Code-Soul?</h1>
+    <h5 class="text-center my-5">Code-Soul believes in helping you add value to yourself at the end of each day.</h5>
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 card3 my-5">
+      <div class="col">
+        <div class="card h-100 card5">
+          <img src="img/c1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">100% Live Learning</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 card5">
+          <img src="img/c2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Mentoring sessions with Industry Experts</h5>
+            <!-- <p class="card-text"></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 card5">
+          <img src="img/c3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">100% Placement Support till you get placed</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> -->
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div><br><br>
+
+
+
+
+  <H1 class="text-center my-5">Our programs</H1>
+
+  <div class="container d-flex flex-row flex-wrap justify-content-center mt-5">
+
+
+    <div class="card m-3 " style="max-width: 490px;">
+      <div class="row g-0 ">
+        <div class="col-md-4 d-flex justify-content-center align-item-center ">
+          <img src="img/card1.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title card-title1">UX/UI Design</h5>
+            <p class="card-text">TUI design refers to the design of user interfaces for software applications and
+              websites. It involves creating intuitive.</p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card m-3 " style="max-width: 490px;">
+      <div class="row g-0">
+        <div class="col-md-4 d-flex justify-content-center align-item-center">
+          <img src="img/card2.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title card-title2">Front-End</h5>
+            <p class="card-text">Front-end development involves building the client-side of web applications,It use of
+              HTML, CSS, and JavaScript.</p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card m-3" style="max-width: 490px;">
+      <div class="row g-0">
+        <div class="col-md-4 d-flex justify-content-center align-item-center">
+          <img src="img/card3.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title card-title3">Back-End</h5>
+            <p class="card-text">It involves using programming languages such as Python, Ruby, PHP, and Java to build
+              and manage the logic, database. </p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card m-3" style="max-width: 490px;">
+      <div class="row g-0">
+        <div class="col-md-4 d-flex justify-content-center align-item-center">
+          <img src="img/card4.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title card-title4">DATABASE</h5>
+            <p class="card-text">A database is an organized collection of data stored and accessed electronically. It is
+              used to retrieve data for various applications.</p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br><br><br>
+  <div class="h1 text-center m-5"> Our Achievers</div><br>
+
+  <div class="container scrollh my-5 right-bg">
+
+    <div class="vw-300 d-flex flex-row " style="scrollbar-width: 4px;">
+
+
+      <div class="card card2" style="width: 150px; border: none;">
+        <img src="img/p1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text h4 text-center">Suraj </p>
+        </div>
+      </div>
+      <div class="card card2" style="width: 150px; border: none;">
+        <img src="img/p2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text h4 text-center">Harshita </p>
+        </div>
+      </div>
+      <div class="card card2" style="width: 150px; border: none;">
+        <img src="img/p3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text h4 text-center">Saima </p>
+        </div>
+      </div>
+      <div class="card card2" style="width: 150px; border: none;">
+        <img src="img/p4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text h4 text-center">Sahil </p>
+        </div>
+      </div>
+      <div class="card card2" style="width: 150px; border: none;">
+        <img src="img/p5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text h4 text-center">Cloie </p>
+        </div>
+      </div>
+      <div class="card card2" style="width: 150px; border: none;">
+        <img src="img/p6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text h4 text-center">Ella </p>
+        </div>
+      </div>
+      <div class="card card2" style="width: 150px; border: none;">
+        <img src="img/p7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text h4 text-center">Ayushi</p>
+        </div>
+      </div>
+      <div class="card card2" style="width: 150px; border: none;">
+        <img src="img/p8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text h4 text-center">Samta</p>
+        </div>
+      </div>
+      <div class="card card2" style="width: 150px; border: none;">
+        <img src="img/p9.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text h4 text-center">Akshita </p>
+        </div>
+      </div>
+      <div class="card card2" style="width: 150px; border: none;">
+        <img src="img/p10.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text h4 text-center">Janvi </p>
+        </div>
+      </div>
+      <div class="card card2" style="width: 150px; border: none;">
+        <img src="img/p11.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text h4 text-center">Kiran </p>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div><br><br><br>
+  <div class="h1 text-center m-5"> Our Mators</div><br>
+
+  <div class="container scrollh ">
+
+    <div class="vw-300 d-flex flex-row card6 my-5">
+
+      <div class="card6-1">
+        <div class="d-flex justify-content-center align-item-center"> <img src="img/m1.jpg"></div>
+        <div class="card6-info">
+          <p class="text-title text-center">ASHLI</p>
+          <p class="text-body text-center">DBMS</p>
+        </div>
+      </div>
+      <div class="card6-1">
+        <div class="d-flex justify-content-center align-item-center"> <img src="img/mm2.jpg"></div>
+        <div class="card6-info">
+          <p class="text-title text-center">ISHA</p>
+          <p class="text-body text-center">C++ </p>
+        </div>
+      </div>
+
+      <div class="card6-1">
+        <div class="d-flex justify-content-center align-item-center"> <img src="img/mm3.jpg"></div>
+        <div class="card6-info">
+          <p class="text-title text-center">DIPIKA</p>
+          <p class="text-body text-center">JavaScript</p>
+        </div>
+      </div>
+
+      <div class="card6-1">
+        <div class="d-flex justify-content-center align-item-center"> <img src="img/mm4.jpg"></div>
+        <div class="card6-info">
+          <p class="text-title text-center">ASHIMA</p>
+          <p class="text-body text-center">DSA</p>
+        </div>
+      </div>
+
+      <div class="card6-1">
+        <div class="d-flex justify-content-center align-item-center"> <img src="img/mm5.jpg"></div>
+        <div class="card6-info">
+          <p class="text-title text-center">SHALLU</p>
+          <p class="text-body text-center">Digital Electronics</p>
+        </div>
+      </div>
+
+      <div class="card6-1">
+        <div class="d-flex justify-content-center align-item-center"> <img src="img/mm7.jpg"></div>
+        <div class="card6-info">
+          <p class="text-title text-center">JASPREET</p>
+          <p class="text-body text-center">C Language</p>
+        </div>
+      </div>
+
+      <div class="card6-1">
+        <div class="d-flex justify-content-center align-item-center"> <img src="img/mm8.jpg"></div>
+        <div class="card6-info">
+          <p class="text-title text-center">MANUSHI</p>
+          <p class="text-body text-center">INFO System</p>
+        </div>
+      </div>
+
+      <div class="card6-1">
+        <div class="d-flex justify-content-center align-item-center"> <img src="img/mm9.jpg"></div>
+        <div class="card6-info">
+          <p class="text-title text-center">PREETI</p>
+          <p class="text-body text-center">HTML</p>
+        </div>
+      </div>
+      <div class="card6-1">
+        <div class="d-flex justify-content-center align-item-center"> <img src="img/mm10.jpg"></div>
+        <div class="card6-info">
+          <p class="text-title text-center">MANPREET</p>
+          <p class="text-body text-center">ASP.NET</p>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+
+  </div><br><br><br>
+
+  <h1 class="text-center my-5">Explore More</h1><br><br>
+
+  <div class=" container grid1 my-5">
+    <div style="background-image:url(img/g1.jpg);"></div>
+    <div style="background-image:url(img/g2.jpg);"></div>
+    <div style="background-image:url(img/g3.jpg);"></div>
+    <div style="background-image:url(img/g5.jpg);"></div>
+    <div style="background-image:url(img/g6.jpg);"></div>
+    <div style="background-image:url(img/g4.jpg);"></div>
+
+  </div> <br><br><br><br>
+
+  <div class="h1 text-center my-5">Code-Soul Achievements</div>
+  <div class="container">
+
+    <div class="container text-center">
+
+      <div class="row justify-content-center">
+        <div class="col-3 row1 ">
+          <h3>22.8 Million</h3>
+          <h6>Min Watched</h6>
+        </div>
+        <div class="col-3 row1">
+          <h3>730k+</h3>
+          <h6>Code-soul Members</h6>
+        </div>
+        <div class="col-4 row1">
+          <h3>40k+</h3>
+          <h6>Monthly New members </h6>
+        </div>
+      </div>
+
+      <div class="row justify-content-center   ">
+        <div class="col-5 row2">
+          <h3>300+ Projects</h3>
+          <h6>Developed by LetsUpgraders</h6>
+        </div>
+        <div class="col-5 row2">
+          <h3>₹ 2+ Crores</h3>
+          <h6>of Placement Delivered</h6>
+        </div>
+      </div>
+
+      <div class="row justify-content-center  ">
+        <div class="col-10 row3">
+          <h3>₹ 2.6+ Crores in Money Saved for Students</h3>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div><br><br>
+
+
+
+
+
+
+  <div class="container mt-5 border-top">
+    <footer class="py-5 ">
+      <div class="row">
+
+        <div class="col-md-3 offset-md-1 mb-3 ">
+
+          <a href=""><img src="img/c.png" class="ficon my-3" alt=""></a> <span>
+            <h5>Code-Soul</h5>
+          </span>
+        </div>
+
+        <div class="col-6 col-md-3 mb-3 ">
+          <h5>Code-Soul</h5>
+          <ul class="nav flex-column ">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">About Us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Pricing and Refund</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Bug Bounty</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Our students</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Press Release</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Terms and Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3 mb-3">
+          <h5>Products</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Courses</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Try courses for Free</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Career camp</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Mock Interviews</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Hire Telent</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Community</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Code Studio</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Blog</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Events</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Affilate</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 foot-link1">Scholarship Events</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><img src="img/github.png" class="ficon2  ficon2-1" alt=""
+                srcset=""></a></li>
+          <li class="ms-3"><a class="link-dark" target="_blank" href="https://www.instagram.com/satwinder.salan/"><img
+                src="img/instagram.png" class="ficon2 ficon2-2" alt="" srcset=""></a></li>
+          <li class="ms-3"><a class="link-dark" target="_blank" href="https://twitter.com/SoulCodeAcademy"><img
+                src="img/twitter.png" class="ficon2 ficon2-3" alt="" srcset=""></a></li>
+          <li class="ms-3"><a class="link-dark" target="_blank" href="https://www.youtube.com/@soulcode4515"><img
+                src="img/youtube.png" class="ficon2 ficon2-4" alt="" srcset=""></a></li>
+
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="bootstrap.js"></script>
+</body>
+
+</html>

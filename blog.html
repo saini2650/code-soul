@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="sign-up.css">
+  <link rel="icon" href="img/c.png">
+</head>
+
+<body class="body">
+  <nav class="navbar navbar-expand-lg bg1 ">
+    <div class="container-fluid">
+
+      <!-- <button class="btn btn-dark rounded me-3" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        <img class="menu" src="img/menu.png" alt="bar">
+      </button> -->
+
+      <a class=" me-3" href="#"> <img src="img/c.png" class="micon"></a>
+      <a class="navbar-brand text-dark me-5" href="index.html">Code-soul</a>
+
+
+      <button class="navbar-toggler bar-button" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <img src="img/menu.png" alt="" srcset="">
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-dark-emphasis" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item border-bottom border-3 border-warning">
+            <a class="nav-link text-warning" aria-current="page" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark-emphasis" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark-emphasis" aria-current="page" href="contact_us.html">Contact-us</a>
+          </li>
+        </ul>
+
+
+
+        <!-- <form class="d-flex" role="search">
+          <input data-bs-theme="light" class="form-control me-2 " type="search" placeholder="Search"
+            aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+        <img src="img/github.png" class="gicon ficon2-1">
+        <img src="img/twitter.png" class="gicon ficon2-3">
+        <img src="img/facebook.png" class="gicon ficon2-5">
+        <span class="text-light-emphasis">|</span>
+
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-light text-dark log-btn" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Sign-Up
+        </button>
+
+
+
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-light text-dark log-btn" data-bs-toggle="modal"
+          data-bs-target="#exampleModa2">Log-In
+        </button>
+
+
+
+      </div>
+  </nav>
+
+
+  <!-- Modal login -->
+
+  <div class="modal fade z-4" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModa2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModa2Label">Log-In</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+
+
+          <div class="main-box2">
+            <div class="box1">
+              <!-- <h1>Log-In</h1><br> -->
+              <div class="email">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="textbox">
+              </div><br>
+              <div class="email">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="textbox"><br>
+              </div>
+            </div>
+            <div class="box2">
+
+              <div class="button">
+                <input type="button" value="Log In" class=" btnn"><br>
+              </div>
+              <div class="fp tc">
+                <p><br>
+                  <span> Forgot Password?</span>
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Modal sign-up-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sign-up</h1>
+          <button type="button" class=" btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+
+
+          <div class="main-box">
+            <div class="box1">
+              <!-- <h1>Sign-up</h1><br> -->
+              <div class="email">
+                <label for="text">First-Name</label>
+                <input type="text" id="text" class="textbox">
+              </div>
+              <div class="email">
+                <label for="text">Last-Name </label>
+                <input type="text" id="text" class="textbox">
+              </div>
+              <div class="email">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="textbox">
+              </div>
+              <div class="email">
+                <label for="password">Set Password</label>
+                <input type="password" id="password" class="textbox">
+              </div>
+              <div class="email">
+                <label for="password">Confirm Password</label>
+                <input type="password" id="password" class="textbox">
+              </div>
+            </div>
+            <div class="box2">
+              <div class="checkbox">
+
+                <input type="checkbox" name="chk" id="chk">
+                <label for="chk">Email me with news and updates</label>
+              </div>
+              <div class="button">
+                <input type="button" value="Sign Up" class="btnn">
+              </div>
+              <div class="tc">
+                <p>
+                  By clicking the "Sign up " button, you are creating an account, and agree
+                  to Body fuel' <span> Terms of Service </span> and <span> Privacy Policy </span>
+                </p>
+              </div>
+
+
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <main class="container">
+    <div class="p-4 p-md-5 mb-4 rounded blog-title">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 fst-italic">Code-soul blog post</h1>
+        <p class="lead my-3">Welcome to our coding website, where we are dedicated to providing you with the latest and
+          most comprehensive resources to help you learn and grow in your coding journey.</p>
+        <p class="lead mb-0"><a href="#" class="text-white fw-bold text-dark-emphasis">Continue reading...</a></p>
+      </div>
+    </div>
+
+
+
+    <div class="row g-5">
+      <div class="col-md-8">
+        <h3 class="pb-4 mb-4 fst-italic border-bottom">
+          From the Code-soul
+        </h3>
+
+        <article class="blog-post">
+          <h2 class="blog-post-title mb-1">UX/UI blog post</h2>
+          <p class="blog-post-meta">January 1, 2021 by <a href="#">John</a></p>
+          <p>The Importance of User Experience (UX) and User Interface (UI) Design <br><br>
+
+            In the digital age, the design of a website or application can make or break its success. A well-designed
+            user experience (UX) and user interface (UI) can greatly impact a user's experience and satisfaction with a
+            product. However, many people often use the terms UX and UI interchangeably, but they are not the same
+            thing. In this blog post, we'll explore the differences between UX and UI and why they are both critical
+            components of successful digital products.</p>
+          <hr>
+          <p>UX design refers to the overall experience a user has while using a product, including how easy it is to
+            use, how accessible it is, and how well it meets their needs. UX designers are responsible for creating the
+            overall structure and layout of a product, including the information architecture and user flow. The goal of
+            UX design is to make a product usable, efficient, and enjoyable for users.</p>
+          <br>
+          <h2>Front web Devlopment </h2><br>
+
+
+          <p>Front-end web development refers to the development of the part of a website or application that users
+            interact with directly. This includes the visual design, layout, and functionality of a website or
+            application. Front-end developers use a combination of HTML, CSS, and JavaScript to build and maintain the
+            user interface.
+
+            The goal of front-end development is to create a user-friendly, aesthetically pleasing, and intuitive
+            interface that provides a seamless experience for users. This requires a deep understanding of user
+            experience (UX) design principles and an eye for detail, as well as a strong grasp of the technical skills
+            needed to build a functional interface.</p>
+          <br>
+          <h5>Developer should know</h5>
+          <hr><br>
+          <!-- <p>And this is a definition list:</p> -->
+          <dl>
+            <dt>HyperText Markup Language (HTML)</dt>
+            <dd>The language used to describe and define the content of a Web page</dd>
+            <dt>Cascading Style Sheets (CSS)</dt>
+            <dd>Used to describe the appearance of Web content</dd>
+            <dt>JavaScript (JS)</dt>
+            <dd>The programming language used to build advanced Web sites and applications</dd>
+          </dl>
+
+
+          <h2>Back-End Devlopment</h2><br>
+          <p>Back-end development refers to the server-side development of web applications, which involves the creation
+            of the behind-the-scenes functionality that supports the user-facing front-end. This includes server-side
+            scripting, database management, and the creation of APIs (Application Programming Interfaces) that allow the
+            front-end to interact with the back-end. Back-end developers use server-side technologies such as PHP, Ruby
+            on Rails, Node.js, and Python to build and maintain the infrastructure that powers web applications. They
+            must have a good understanding of data structures, algorithms, and database management, as well as
+            experience in building scalable and secure systems. The goal of back-end development is to provide a
+            seamless experience for users by quickly and reliably processing requests and returning data.</p>
+
+        </article>
+
+        <article class="blog-post">
+          <h2 class="blog-post-title mb-1">Database blog post</h2>
+          <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+          <p>A database is a collection of structured data stored and organized in a way that allows efficient retrieval
+            and manipulation of the information. Databases are used to store and manage large amounts of data, including
+            business records, customer information, and more. There are many types of databases, including relational
+            databases, document databases, graph databases, and key-value databases, each designed to meet specific
+            needs and requirements.
+
+            Relational databases, such as MySQL and PostgreSQL, use tables to store data and define relationships
+            between tables using keys. Document databases, such as MongoDB, store data in a semi-structured format,
+            allowing for greater flexibility in data organization. Graph databases, such as Neo4j, are designed to store
+            and query data in a network-like structure, making them well-suited for complex relationships. Key-value
+            databases, such as Redis, store data in a simple key-value format, making them fast and easy to use for
+            certain types of data.
+
+            Databases are managed by database management systems (DBMS), software that allows users to interact with the
+            database and perform tasks such as creating, updating, and deleting data. The choice of a database and DBMS
+            depends on the specific needs of the application and the type and size of data being stored.</p>
+
+          <h3>Example DBMS </h3>
+          <p>And don't forget about tables in these posts:</p>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Upvotes</th>
+                <th>Downvotes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Alice</td>
+                <td>10</td>
+                <td>11</td>
+              </tr>
+              <tr>
+                <td>Bob</td>
+                <td>4</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Charlie</td>
+                <td>7</td>
+                <td>9</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Totals</td>
+                <td>21</td>
+                <td>23</td>
+              </tr>
+            </tfoot>
+          </table><br>
+          <p>
+            RDBMS stands for Relational Database Management System. It is a type of database management system that uses
+            a relational model to store data in tables. Each table represents a specific type of information, and tables
+            are related to each other using keys. This allows data to be organized and retrieved in a structured and
+            efficient manner.
+
+            In an RDBMS, data is stored in rows and columns, with each row representing a single record and each column
+            representing a specific field of data. This organization allows for easy searching, sorting, and
+            manipulation of data, as well as the ability to enforce constraints and rules to ensure data integrity.
+          </p>
+
+        </article>
+
+
+        <nav class="blog-pagination mb-5" aria-label="Pagination">
+          <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+          <a class="btn btn-outline-primary rounded-pill" href="#">Newer</a>
+          <!-- <a class="btn btn-outline-primary rounded-pill">Newer</a> -->
+        </nav>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4 mb-3  rounded blog-title">
+            <h4 class="fst-italic ">About</h4>
+            <p class="mb-0">Welcome to our coding website, where we are dedicated to providing you with the latest and
+              most comprehensive resources to help you learn and grow in your coding journey. </p>
+          </div>
+
+          <div class="p-5">
+            <h4 class="fst-italic">Archives</h4>
+            <ol class="list-unstyled mb-0 list-1">
+              <li><a href="#">March 2021</a></li>
+              <li><a href="#">February 2021</a></li>
+              <li><a href="#">January 2021</a></li>
+              <li><a href="#">December 2020</a></li>
+              <li><a href="#">November 2020</a></li>
+              <li><a href="#">October 2020</a></li>
+              <li><a href="#">September 2020</a></li>
+              <li><a href="#">August 2020</a></li>
+              <li><a href="#">July 2020</a></li>
+              <li><a href="#">June 2020</a></li>
+              <li><a href="#">May 2020</a></li>
+              <li><a href="#">April 2020</a></li>
+            </ol>
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic">Elsewhere</h4>
+            <img src="img/github.png" class="gicon ficon2-1">
+            <img src="img/twitter.png" class="gicon ficon2-3">
+            <img src="img/facebook.png" class="gicon ficon2-5">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="bootstrap.js"></script>
+</body>
+
+</html>
